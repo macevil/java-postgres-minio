@@ -1,0 +1,9 @@
+---
+applications:
+- name: java-postgres-minio
+  memory: 1024MB
+  random-route: true
+  services:
+  - jpm-db
+  env:
+    SPRING_PROFILES_ACTIVE: prod
