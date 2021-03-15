@@ -22,3 +22,7 @@ spring:
       hibernate:
         ddl-auto: none
       generate-ddl: false
+
+server:
+  http2:
+    enabled: true
