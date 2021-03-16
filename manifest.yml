@@ -7,3 +7,4 @@ applications:
   - jpm-db
   env:
     SPRING_PROFILES_ACTIVE: prod
+    BP_JVM_VERSION: 15.*
